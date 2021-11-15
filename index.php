@@ -1,5 +1,5 @@
 <?php include 'header.php' ?>
-    <div id="container">
+    <div class="container">
         <h1>Bükk</h1>
         <img src="./img/bukk.jpg" alt="bukk.jpg" width="200px">
         <p>A bükk sokféleképpen haszonsítható kemény lombos faanyag, Magyarországon

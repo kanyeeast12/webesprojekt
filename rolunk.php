@@ -1,5 +1,5 @@
 <?php include 'header.php' ?>
-    <div id="container">
+    <div class="container">
             <h1>Rólunk</h1>
             <p>
                19-20 évesek vagyunk, a Türr ben tanulunk, órai munkának eme csodás weboldal elkészítését kaptuk. <br> Neve: Kókány weblap 2.0
