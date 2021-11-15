@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Rólunk</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Főoldal</a></li>
-                <li><a href="festekek.html">Festékek</a></li>
-                <li><a href="faanyagok.html">Faanyagok</a></li>
-                <li><a href="szerszamkatalogus.html">Szerszámkatalógus</a></li>
-                <li><a href="rolunk.html">Rólunk</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
+<?php include 'header.php' ?>
     <div id="container">
             <h1>Rólunk</h1>
             <p>
@@ -41,6 +20,4 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt, numquam sit aliquam, accusamus omnis mollitia dolores fuga id suscipit ad architecto corrupti! Sequi mollitia neque ea a beatae in.</p>
         </div>
     </div>
-
-</body>
-</html>
+<?php include 'footer.php' ?>

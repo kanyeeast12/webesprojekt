@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Festékek</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Főoldal</a></li>
-                <li><a href="festekek.html">Festékek</a></li>
-                <li><a href="faanyagok.html">Faanyagok</a></li>
-                <li><a href="szerszamkatalogus.html">Szerszámkatalógus</a></li>
-                <li><a href="rolunk.html">Rólunk</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
+<?php include 'header.php' ?>
     <h1>Válasszon színt!</h1>
     <br>
     <h2>Albert beltéri falfesték Égkék (2liter)</h2>
@@ -70,5 +49,4 @@
     <p><b>Mennyiség </b>2 liter</p>
     <p><b>Egységár </b>2 500 Ft/liter</p>
     <br>
-</body>
-</html>
+<?php include 'footer.php' ?>
