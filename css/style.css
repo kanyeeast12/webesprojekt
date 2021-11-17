@@ -9,6 +9,10 @@ img {
   height: 250px;
 }
 
+.about-container {
+  border: 1px solid black;
+}
+
 .img-container {
   display: flex;
   flex-direction: row;
@@ -56,7 +60,6 @@ img {
   background-color: rgba(255, 255, 255, 0.5);
   text-align: center;
 }
-
 
 .nav-container {
   width: 80%;
