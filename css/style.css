@@ -149,3 +149,36 @@ nav a:hover {
 nav li:hover {
   background-color: #62330c;
 }
+
+@media (max-width: 710px) {
+  html {
+    position: relative;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    border-radius: 10px;
+    width: 100%;
+    background: none;
+  }
+
+  nav {
+    float: right;
+  }
+
+  nav ul {
+    padding-top: 40px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    background: #95531c;
+    border-radius: 20px;
+  }
+
+  nav li {
+    width: 100%;
+  }
+}
