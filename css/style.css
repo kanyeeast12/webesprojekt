@@ -83,7 +83,7 @@ td {
   flex-wrap: wrap;
 }
 
-.szerszam-container{ 
+.szerszam-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -91,7 +91,7 @@ td {
   text-align: center;
 }
 
-.szerszam-card{
+.szerszam-card {
   margin-bottom: 10px;
   padding: 7px;
   border: 1px solid black;
@@ -116,11 +116,6 @@ td {
   text-align: center;
 }
 
-.nav-container {
-  width: 80%;
-  margin: 0 auto;
-}
-
 header {
   background: #95531c;
   font-weight: bold;
@@ -130,6 +125,28 @@ header::after {
   content: '';
   display: table;
   clear: both;
+}
+
+header .nav-btn {
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  width: 2.5rem;
+  aspect-ratio: 1;
+  top: 1.2rem;
+  right: 1.5rem;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  background: none;
+}
+
+header .nav-btn:hover i {
+  color: white;
+}
+
+.nav-btn i {
+  font-size: 2rem;
 }
 
 nav {
@@ -165,7 +182,7 @@ nav li:hover {
   background-color: #62330c;
 }
 
-@media (max-width: 710px) {
+@media (max-width: 1100px) {
   html {
     position: relative;
   }
@@ -176,6 +193,10 @@ nav li:hover {
     border-radius: 10px;
     width: 100%;
     background: none;
+  }
+
+  header .nav-btn {
+    display: block;
   }
 
   nav {
@@ -191,6 +212,8 @@ nav li:hover {
     padding-bottom: 30px;
     background: #95531c;
     border-radius: 20px;
+    padding: 20px;
+    padding-top: 4rem;
   }
 
   nav li {
