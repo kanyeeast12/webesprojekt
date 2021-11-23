@@ -10,6 +10,9 @@
 </head>
 <body>
     <header>
+        <button class="nav-btn">
+            
+        </button>
         <nav>
             <ul>
                 <li><a href="index.php">Főoldal</a></li>
