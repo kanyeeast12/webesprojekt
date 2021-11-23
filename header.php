@@ -10,8 +10,9 @@
 </head>
 <body>
     <header>
-        <button class="nav-btn">
+        <button class="nav-btn" >
             <i class="fas fa-align-justify"></i>
+            Menu
         </button>
         <nav>
             <ul>

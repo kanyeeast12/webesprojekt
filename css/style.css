@@ -131,11 +131,12 @@ header .nav-btn {
   display: none;
   position: absolute;
   z-index: 9999;
-  width: 2.5rem;
+  width: 3rem;
   aspect-ratio: 1;
   top: 1.2rem;
-  right: 1.5rem;
+  right: 0.7rem;
   border: none;
+  font-size: 1rem;
   text-decoration: none;
   text-align: center;
   background: none;
@@ -200,6 +201,7 @@ nav li:hover {
   }
 
   nav {
+    display: none;
     float: right;
   }
 
