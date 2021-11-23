@@ -10,10 +10,10 @@
 </head>
 <body>
     <header>
-        <button class="nav-btn" >
+        <button class="nav-btn" id="menuBtn">
             <i class="fas fa-align-justify"></i>
         </button>
-        <nav>
+        <nav id="nav">
             <ul>
                 <li><a href="index.php">Főoldal</a></li>
                 <li><a href="festekek.php">Festékek</a></li>

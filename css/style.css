@@ -143,6 +143,7 @@ header .nav-btn {
   text-decoration: none;
   text-align: center;
   background: none;
+  transition: 0.3s ease-in-out;
 }
 
 header .nav-btn:hover {
@@ -176,6 +177,7 @@ nav li {
 nav a {
   color: #110e0b;
   text-decoration: none;
+  transition: 0.3s ease-in-out;
 }
 
 nav a:hover {
@@ -184,6 +186,10 @@ nav a:hover {
 
 nav li:hover {
   background-color: #62330c;
+}
+
+nav li:hover a {
+  color: white;
 }
 
 @media (max-width: 1200px) {
