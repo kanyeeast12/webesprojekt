@@ -10,13 +10,13 @@
         <div class="about-container">
             
             <img src="./img/kopi.jpg" alt="" srcset="" width="100px" height="100px"> <!--Bal-->
-            <p><b>A csapat agya, mindent is tud. Leginkább a css-hez ért.</b></p>
+            <p><b>A csapat bolondja, szereti lógatni a lábát, és semmittenni. Leginkább a ctrl-c ctrl-v hez ért.</b></p>
         </div>
 
         <h2>Adrián</h2>
         <div class="about-container">
             <img src="./img/adrian.jpg" alt="" srcset="" width="100px" height="100px"> <!--Jobb-->
-            <p><b>A csapat bolondja, szereti lógatni a lábát, és semmittenni. Leginkább a ctrl-c ctrl-v hez ért.</b></p>
+            <p><b>A csapat agya, mindent is tud. Leginkább a css-hez ért.</b></p>
         </div>
         
         <h2>Ricsko</h2>
