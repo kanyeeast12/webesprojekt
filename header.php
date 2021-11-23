@@ -12,7 +12,6 @@
     <header>
         <button class="nav-btn" >
             <i class="fas fa-align-justify"></i>
-            <span>Menu</span>
         </button>
         <nav>
             <ul>

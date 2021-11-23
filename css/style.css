@@ -1,5 +1,8 @@
 body {
   background-image: url('../img/hatter.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
 }
@@ -105,11 +108,11 @@ td {
 }
 
 .container {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  /*background-color: rgba(255, 255, 255, 0.5);*/
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 3%;
 }
 .container > h1 {
@@ -128,13 +131,12 @@ header::after {
 }
 
 header .nav-btn {
-  color: #dcdcdc;
+  color: black;
   display: none;
   position: absolute;
   z-index: 9999;
   width: 3rem;
   aspect-ratio: 1;
-  top: 1.2rem;
   right: 0.7rem;
   border: none;
   font-size: 1rem;
@@ -144,7 +146,7 @@ header .nav-btn {
 }
 
 header .nav-btn:hover {
-  color: #ffffff;
+  color: white;
 }
 
 .nav-btn i {
@@ -184,29 +186,33 @@ nav li:hover {
   background-color: #62330c;
 }
 
-@media (max-width: 1100px) {
-  html {
-    position: relative;
-  }
-
+@media (max-width: 1200px) {
   header {
     position: fixed;
     top: 0;
-    border-radius: 10px;
+    height: 60px;
     width: 100%;
-    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
   }
 
   header .nav-btn {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   nav {
-    display: none;
+    margin-top: 23rem;
     float: right;
+    z-index: 9998;
+    display: none;
   }
 
   nav ul {
+    margin-top: 20px;
+    margin-right: 0px;
     padding-top: 40px;
     width: 100%;
     flex-direction: column;
@@ -221,5 +227,9 @@ nav li:hover {
 
   nav li {
     width: 100%;
+  }
+
+  .container {
+    margin-top: 5rem;
   }
 }
