@@ -7,11 +7,6 @@ body {
   margin: 0;
 }
 
-img {
-  width: 250px;
-  height: 250px;
-}
-
 table,
 th,
 td {
@@ -239,4 +234,48 @@ nav li:hover a {
   .container {
     margin-top: 5rem;
   }
+}
+
+.blogh {
+  color: white;
+  padding-left: 50px;
+  padding-top: 10px;
+  font-weight: bold;
+  text-shadow: #000 2px 2px 1px;
+}
+
+
+
+.blogp {
+  color: white;
+  padding-left: 100px;
+  font-weight: bold;
+  text-shadow: #000 2px 2px 1px;
+}
+
+.ibbigang{
+  padding-left: 100px;
+}
+
+.ibbigang2{
+  padding-left: 100px;
+  text-align: right;
+  padding-right: 50px;
+}
+
+.hatter {
+  background:rgba(0, 0, 0, 0.7);
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ibbigang img{
+  border: 5px solid rgb(255, 255, 255);
+}
+
+.ibbigang2 img{
+  border: 5px solid rgb(255, 255, 255);
 }
