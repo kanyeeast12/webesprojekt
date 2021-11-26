@@ -2,7 +2,7 @@
     <div class="container">
         <h1>Bükk</h1>
         <div class="home-card">
-            <img class="img-rounded" src="./img/bukk.jpg" alt="bukk.jpg" width="200px">
+            <img class="img-rounded" src="./img/bukk.jpg" alt="bukk.jpg" width="200px" height="200px">
 
             <div class="home-card-text">
                 <p>A bükk sokféleképpen haszonsítható kemény lombos faanyag, Magyarországon

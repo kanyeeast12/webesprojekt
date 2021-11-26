@@ -35,6 +35,8 @@ td {
 .about-container {
   display: flex;
   padding: 10px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .home-card {
@@ -118,6 +120,16 @@ td {
   margin-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.5);
 }
+
+.container-rolunk{
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
 .container > h1 {
   text-align: center;
 }
